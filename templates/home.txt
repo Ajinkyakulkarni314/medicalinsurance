@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medical Insurance Database</title>
+  <style>
+    body {
+      background-image: url("https://wallpaperaccess.com/full/4942688.jpg");
+      background-size: cover;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 50px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center; margin: 50px 0;">Medical Insurance Database</h1>
+  <table>
+    <tr>
+      <th>Age</th>
+      <th>Sex</th>
+      <th>BMI</th>
+      <th>Children</th>
+      <th>Smoker</th>
+      <th>Region</th>
+    </tr>
+  </table>
+
+  <h2 style="text-align: center; margin: 50px 0;">Predict My Insurance Cost</h2>
+  <form style="width: 50%; margin: 0 auto;">
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age"><br><br>
+    <label for="sex">Sex:</label>
+    <input type="text" id="sex" name="sex"><br><br>
+    <label for="bmi">BMI:</label>
+    <input type="text" id="bmi" name="bmi"><br><br>
+    <label for="children">Children:</label>
+    <input type="text" id="children" name="children"><br><br>
+    <label for="smoker">Smoker:</label>
+    <input type="text" id="smoker" name="smoker"><br><br>
+    <label for="region">Region:</label>
+    <input type="text" id="region" name="region"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+</body>
+</html>
